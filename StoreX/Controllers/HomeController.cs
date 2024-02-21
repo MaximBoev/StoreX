@@ -13,5 +13,49 @@ namespace StoreX.Controllers
         {
             return View();
         }
+
+        // GET: Blank
+        public ActionResult Blank()
+        {
+            return View();
+        }
+
+        // GET: Checkout
+        public ActionResult Checkout()
+        {
+            return View();
+        }
+
+        // GET: Hotdeals
+        public ActionResult Hotdeals()
+        {
+            return View();
+        }
+
+        // GET: Policy
+        public ActionResult Policy()
+        {
+            return View();
+        }
+
+
+        // GET: Product
+        public ActionResult Product()
+        {
+            return View();
+        }
+
+        // GET: Store
+        public ActionResult Store()
+        {
+            return View();
+        }
+
+        // GET: Store
+        public ActionResult Registration()
+        {
+            return View();
+        }
+
     }
 }
