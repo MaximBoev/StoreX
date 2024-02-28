@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace StoreX.Interfaces
+namespace StoreX.BusinessLogic
 {
-    internal interface IUser
+    public class Class1
     {
-
     }
 }

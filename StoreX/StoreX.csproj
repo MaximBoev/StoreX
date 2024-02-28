@@ -261,6 +261,7 @@
     <Content Include="Views\Home\Policy.cshtml" />
     <Content Include="Views\Home\Product.cshtml" />
     <Content Include="Views\Home\Registration.cshtml" />
+    <Content Include="Views\Login\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -272,6 +273,16 @@
     <Folder Include="App_Data\" />
     <Folder Include="BLogic\" />
     <Folder Include="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\StoreX.BusinessLogic\StoreX.BusinessLogic.csproj">
+      <Project>{b42c003c-fcbc-4fa2-ab86-4cac4b2703fc}</Project>
+      <Name>StoreX.BusinessLogic</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\StoreX.Domain\StoreX.Domain.csproj">
+      <Project>{90083bce-7144-4ccf-b6d4-7ae24e44987d}</Project>
+      <Name>StoreX.Domain</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
