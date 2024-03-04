@@ -42,6 +42,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="Entities\Product\AProductData.cs" />
+    <Compile Include="Entities\Respond\ProdAddActionResp.cs" />
+    <Compile Include="Enums\ProductTypes.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -49,6 +52,9 @@
       <Project>{351fe262-cc69-4bbb-8554-7a56a1a4b579}</Project>
       <Name>StoreX.Helpers</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Entities\User\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

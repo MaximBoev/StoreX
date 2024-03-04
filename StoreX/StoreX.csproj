@@ -118,6 +118,7 @@
     <Content Include="Content\font-awesome.css" />
     <Content Include="Content\font-awesome.min.css" />
     <Content Include="Content\nouislider.min.css" />
+    <Content Include="Content\registration.css" />
     <Content Include="Content\Site.css" />
     <Content Include="Content\slick-theme.css" />
     <Content Include="Content\slick.css" />
@@ -220,6 +221,8 @@
     </Compile>
     <Compile Include="Interfaces\IAdmin.cs" />
     <Compile Include="Interfaces\IUser.cs" />
+    <Compile Include="Models\Product\MProductData.cs" />
+    <Compile Include="Models\WorkerController.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -272,7 +275,6 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="BLogic\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\StoreX.BusinessLogic\StoreX.BusinessLogic.csproj">
