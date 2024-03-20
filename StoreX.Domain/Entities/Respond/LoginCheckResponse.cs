@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace StoreX.Domain
+namespace StoreX.Domain.Entities.Respond
 {
-    public class Class1
+    public class LoginCheckResponse
     {
+        public bool Success { get; set; }
     }
 }

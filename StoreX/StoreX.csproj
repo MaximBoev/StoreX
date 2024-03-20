@@ -216,13 +216,15 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\LoginController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Interfaces\IAdmin.cs" />
     <Compile Include="Interfaces\IUser.cs" />
+    <Compile Include="Models\Authentication\MLoginData.cs" />
+    <Compile Include="Models\Authentication\MRegistrationData.cs" />
     <Compile Include="Models\Product\MProductData.cs" />
-    <Compile Include="Models\WorkerController.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -41,9 +41,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
     <Compile Include="Entities\Product\AProductData.cs" />
+    <Compile Include="Entities\Respond\LoginCheckResponse.cs" />
     <Compile Include="Entities\Respond\ProdAddActionResp.cs" />
+    <Compile Include="Entities\User\LoginData.cs" />
     <Compile Include="Enums\ProductTypes.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -53,8 +54,6 @@
       <Name>StoreX.Helpers</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Entities\User\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

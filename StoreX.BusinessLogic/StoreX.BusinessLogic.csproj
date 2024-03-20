@@ -45,7 +45,9 @@
     <Compile Include="Core\AdminApi.cs" />
     <Compile Include="Core\Pocos\PocoUser.cs" />
     <Compile Include="Core\UserApi.cs" />
+    <Compile Include="Interface\ILogin.cs" />
     <Compile Include="Interface\IProduct.cs" />
+    <Compile Include="MainBL\LoginBL.cs" />
     <Compile Include="MainBL\ProductBL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

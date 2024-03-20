@@ -10,9 +10,6 @@ namespace StoreX.BusinessLogic.Core
 {
     public class AdminApi
     {
-        public ProdAddActionResp AddProductToDb(AProductData prod)
-        {
-            return new ProdAddActionResp { ActionStatus = false };
-        }
+
     }
 }

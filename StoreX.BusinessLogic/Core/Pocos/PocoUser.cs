@@ -8,5 +8,6 @@ namespace StoreX.BusinessLogic.Core.Pocos
 {
     internal class PocoUser
     {
+
     }
 }

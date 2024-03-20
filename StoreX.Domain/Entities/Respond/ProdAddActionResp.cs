@@ -8,6 +8,6 @@ namespace StoreX.Domain.Entities.Respond
 {
     public class ProdAddActionResp
     {
-        public bool ActionStatus { get; set; }
+
     }
 }
